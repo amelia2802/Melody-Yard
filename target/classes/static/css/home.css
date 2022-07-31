@@ -1,0 +1,213 @@
+body{
+  background-color: #ffd9de;
+background-image: linear-gradient(315deg, #ffd9de 0%, #e99ba6 74%);
+color: white;
+
+}
+header{
+  width: 100%;
+  height:60px;
+  color: white;
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
+
+
+header h1{
+  font-family:sans-serif;
+  font-size: 30px;
+}
+
+#header{
+  width: 50%;
+  float: left;
+  padding-left:2em;
+}
+#logo{
+  border-radius: 50%;
+  width: 3em;
+  height: 2em;
+}
+
+span{
+  font-size: 2.5em;
+  margin-left: 8px;
+  position: fixed;
+}
+
+.closebtn{
+  color: rgb(161, 7, 7);
+  font-size: 4em;
+  text-decoration: none;
+  top: 0;
+  z-index: 1;
+}
+
+.form-group label{
+  color: white;
+  line-height: 4rem;
+  font-size: 1rem;
+  font-family:sans-serif;
+}
+#sidebar-wrapper{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(37, 37, 37, 0.822),rgba(68, 66, 66, 0.384));
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#sidebar-wrappera {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+#sidebar-wrappera:hover {
+  color: #f1f1f1;
+}
+
+#sidebar-wrapper.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#navbar{
+ overflow: hidden;
+}
+
+#navbar ul,li,a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+/* Style the links inside the navigation bar */
+#navbar a{
+  text-align: center;
+  font-size: 1.1rem;
+  margin-right: 6px;
+  font-family: cursive;
+  float: right;
+}
+
+/* Change the color of links on hover */
+#navbar a:hover {
+  background-color: rgba(184, 19, 19, 0.781);
+  color: beige;
+}
+
+#menu{
+  height:50%;
+  width: 100%;
+  background-image: url(https://cache.desktopnexus.com/thumbseg/2456/2456250-bigthumbnail.jpg);
+  background-size: cover;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-family: cursive;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+#menu img{
+  height: 30em;
+  width: 80%;
+  padding-left:15%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5.5s;
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: .9}
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    
+  }
+
+#cast{
+  float: left;
+  padding: 23px;
+  width: 32%;
+  margin: 6px;
+  background-color: #fde7f9;
+  background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
+
+}
+  .image {
+    display: block;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  
+  @media screen and (max-height: 450px) {
+    #sidebar-wrapper{padding-top: 15px;}
+    #sidebar-wrappera {font-size: 18px;}
+  }
+
+  /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+footer{
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
+
+#recent{
+  font-family: monospace;
+  text-align: center;
+}

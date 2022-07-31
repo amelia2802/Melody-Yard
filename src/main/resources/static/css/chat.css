@@ -1,0 +1,124 @@
+header{
+    background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
+   
+form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+   
+form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+   
+input {
+    font-family: monospace;
+}
+   
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+   
+#wrapper,
+#loginform {
+    background-color: #d9e4f5;
+    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+width: 100%;
+height: 100%;
+
+}
+  
+#chatbox {
+    text-align: left;
+    background: #fff;
+    height: 370px;
+    width: 100%;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid #a7a7a7;
+}
+   
+  #usermsg {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #6B0F1A;
+  }
+   
+  #name {
+    border-radius: 4px;
+    border: 1px solid #6B0F1A;
+    padding: 2px 8px;
+  }
+   
+  #submitmsg,
+  #enter{
+    background: #701822;
+    border: 2px solid #6B0F1A;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+   
+  .error {
+    color: #ff0000;
+  }
+   
+  #menu {
+    padding: 15px 25px;
+    display: flex;
+  }
+   
+  #menu p.welcome {
+    flex: 1;
+  }
+   
+  a#exit {
+    color: white;
+    background: #c62828;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+   
+  .msgln {
+    margin: 0 0 5px 0;
+  }
+   
+  .msgln span.left-info {
+    color: #6B0F1A;
+  }
+   
+  .msgln span.chat-time {
+    color: #666;
+    font-size: 60%;
+    vertical-align: super;
+  }
+   
+  .msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    background: #546e7a;
+    color: white;
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+  }
+   
+  .msgln b.user-name-left {
+    background: #6B0F1A;
+  }
+footer{
+   
+    background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+    width: 100%;
+    height: 70%;
+}

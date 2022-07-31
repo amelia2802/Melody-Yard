@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Playlist</title>
+        <link rel="icon" type="image/x-icon" href="resources/img/logo.ico" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css"  href="/src/main/resources/static/css/playlist.css" th:href="@{/resources/css/playlist.css}"/>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="js/swfobject.js"></script>
+    </head>
+    <body>
+        <header>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/src/main/resources/templates/home.html" th:href="@{/home}">Explore|</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Playlist|</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/src/main/resources/templates/chat.html" th:href="@{/chat}">Chat|</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/src/main/resources/templates/about.html" th:href="@{/about}">About|</a>
+                </li>
+              </ul>
+        </header>
+        <h1>Your Playlists!</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Most Viewd
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0VjIjW4GlUZAMYd2vXMi3b?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                      </li>
+
+                      <li>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3C0nOe05EIt1390bVABLyN?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                      </li>
+
+                      <li>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4OL0mfCsZQaPakTmuN9rKv?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                      </li>
+                    </ul>
+                    <button id="add">Add Tracks</button>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  New Creations
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0ExPn?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </li>
+                  </ul>
+                  <button id="add">Add Tracks</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Artist Special
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1E4oee5QSbfqLN?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </li>
+
+                    <li>
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTQllLRMgY9S?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </li>
+
+                    <li>
+                      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4nProAxFavzKkbaRQ2Otyk?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </li>
+                  </ul>
+                  <button id="add">Add Tracks</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+      <!-- Footer-->
+      <footer class="footer  small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Melody Yard 2022</div></footer>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N9E9YP1HGF"></script>
+        <script type="text/javascript" src="/src/main/resources/static/js/lib.js" th:src="@{/resources/js/lib.js}"></script>
+    </body>
+</html>
