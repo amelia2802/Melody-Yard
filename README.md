@@ -5,6 +5,10 @@ User can also chat with their connections.
 # Preview
 
 
+https://user-images.githubusercontent.com/49182604/182020900-de59e332-ec14-4404-ae3d-9ac6532ba393.mp4
+
+
+
 # User guide
 - Download  the latest version of [JDK](https://www.oracle.com/java/technologies/downloads/) on your system.
 - Install & Add [Maven](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html)
